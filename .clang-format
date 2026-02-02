@@ -5,7 +5,7 @@ SpacesInParentheses: true
 AlignAfterOpenBracket: true
 SpacesInSquareBrackets: true
 AlignArrayOfStructures: Right
-BreakBeforeTernaryOperators : true
+BreakBeforeTernaryOperators: true
 AlignOperands: AlignAfterOperator
 
 AlignConsecutiveAssignments:
