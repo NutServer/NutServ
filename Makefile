@@ -1,4 +1,4 @@
-CXXFLAGS      = -Wall -Wextra -Werror -Wshadow -std=c++98 # -g -g3 -ggdb3 -fsanitize=address
+CXXFLAGS      = -Wall -Wextra -Werror -Wshadow -Iincludes -std=c++98 # -g -g3 -ggdb3 -fsanitize=address
 SRC           = $(wildcard *.cpp ./src/*.cpp)
 OBJ           = $(SRC:%.cpp=$(OBJDIR)/%.o)
 OBJDIR        = builds
