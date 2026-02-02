@@ -18,7 +18,7 @@ clean:
 	rm -rf $(OBJ)
 
 fclean: clean
-	rm -rf $(NAME) $(LIB_DIR)
+	rm -rf $(NAME)
 
 re: fclean all
 
