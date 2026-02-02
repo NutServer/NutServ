@@ -1,6 +1,3 @@
-#include	"../includes/webserv.hpp"
+#include "webserv.hpp"
 
-int	main(void)
-{
-	std::cout	<< "this is just a test" << std::endl;
-}
+int main( void ) { std::cout << "this is just a test" << std::endl; }

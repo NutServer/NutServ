@@ -1,7 +1,6 @@
-#ifndef webserv
-#define webserv
+#ifndef WEBSERV_HPP
+#define WEBSERV_HPP
 
-#include <iostream>
 #include <exception>
 #include <iostream>
 
