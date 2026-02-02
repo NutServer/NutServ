@@ -1,0 +1,9 @@
+#object files
+*.o
+
+#just files
+.DS_Store
+.vscode
+
+#excutables
+WebServ
