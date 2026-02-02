@@ -1,0 +1,38 @@
+IndentWidth:   4
+IndentAccessModifiers: true
+BreakBeforeBraces: Linux
+SpacesInParentheses: true
+AlignAfterOpenBracket: true
+SpacesInSquareBrackets: true
+AlignArrayOfStructures: Right
+BreakBeforeTernaryOperators: true
+AlignOperands: AlignAfterOperator
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: true
+  AlignCompound:    true
+  AcrossComments:   true
+  AlignFunctionDeclarations: true
+  AlignFunctionPointers: true
+
+AlignConsecutiveBitFields:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
+
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
+
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: true
+
+SpacesInParensOptions:
+  ExceptDoubleParentheses: true
+  InConditionalStatements: true
+  InEmptyParentheses: true
